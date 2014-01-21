@@ -2,7 +2,7 @@ package ru.rogotulka.util;
 
 public enum RankCards {
 	ACE(0), KING(1), QUEEN(2), JACK(3), TEN(4), NINE(5), EIGHT(6), SEVEN(7),
-	SIX(6), FIVE(5), FOUR(4), THREE(3), TWO(2);
+	SIX(8), FIVE(9), FOUR(10), THREE(11), TWO(12);
 	private int id;
 	RankCards(int id){
 		this.id = id;
